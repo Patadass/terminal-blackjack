@@ -1,11 +1,15 @@
 #include <ncurses.h>
+
 #include "lib/draw.h"
+#include "lib/blackjack.h"
 
 using namespace std;
 
 int main(){
     initscr();
     start_color();
+    Blackjack bj;
+    bj.print();
 
     Draw draw;
     Ascii_card card('X','s');

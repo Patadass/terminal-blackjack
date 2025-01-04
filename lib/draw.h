@@ -2,8 +2,8 @@
 #include <fstream>
 #include <cstdio>
 
-#ifndef TETRIS_DRAW_H
-#define TETRIS_DRAW_H
+#ifndef DRAW_H
+#define DRAW_H
 
 #define BLACK 1
 #define RED 2
@@ -215,4 +215,4 @@ private:
     int _color_pair;
 };
 
-#endif //TETRIS_DRAW_H
+#endif //DRAW_H
