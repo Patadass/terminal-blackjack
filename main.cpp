@@ -8,8 +8,6 @@ using namespace std;
 int main(){
     initscr();
     start_color();
-    Blackjack bj;
-    bj.print();
 
     Draw draw;
     Ascii_card card('X','s');
